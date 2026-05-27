@@ -7,7 +7,7 @@ useSeoMeta({
 })
 
 const atouts = [
-  { icon: Home, title: 'Box & Paddock', description: "Nous proposons des formules de pension en box individuel ou en paddock, adaptées aux besoins de chaque cheval. Chaque espace est entretenu quotidiennement." },
+  { icon: Home, title: 'Box & Paddock', description: "Nous proposons des pensions sous différentes formules : pré / box, adaptées aux besoins de chaque cheval. Chaque espace est entretenu quotidiennement." },
   { icon: Leaf, title: 'Foin à volonté', description: "Nos pensionnaires ont accès au foin à volonté, conformément aux besoins physiologiques naturels du cheval. Une alimentation saine et équilibrée." },
   { icon: Shield, title: 'Surveillance 24h/7', description: "Votre cheval est surveillé en permanence. Nous assurons un suivi quotidien de son état de santé, de son comportement et de son bien-être." },
   { icon: Heart, title: 'Sorties quotidiennes', description: "Chaque pensionnaire bénéficie de sorties quotidiennes au pré ou en paddock pour préserver son équilibre physique et psychologique." },
@@ -25,7 +25,7 @@ const galerie = [
   <div>
     <!-- Hero -->
     <div class="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
-      <img src="/images/Champ.jpg" alt="Pension chevaux à l'Écurie Elphé" class="absolute inset-0 w-full h-full object-cover object-center" fetchpriority="high" />
+      <img src="/images/Champ.jpg" alt="Pension chevaux à l'Écurie Elphe" class="absolute inset-0 w-full h-full object-cover object-center" fetchpriority="high" />
       <div class="absolute inset-0 bg-primary/50 mix-blend-multiply z-10" />
       <div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-transparent to-transparent z-10" />
       <div class="relative z-20 text-center text-white px-4">
@@ -39,7 +39,7 @@ const galerie = [
       <div class="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
         <div class="relative">
           <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative z-10">
-            <img src="/images/Horse_group.jpg" alt="Chevaux en pension à l'Écurie Elphé" loading="lazy" class="w-full h-full object-cover" />
+            <img src="/images/Horse_group.jpg" alt="Chevaux en pension à l'Écurie Elphe" loading="lazy" class="w-full h-full object-cover" />
           </div>
           <div class="absolute top-10 -left-6 md:-left-10 w-full h-full border-4 border-accent/30 rounded-2xl -z-10" />
           <div class="absolute -bottom-8 -right-8 w-48 h-48 bg-primary/5 rounded-full blur-3xl -z-10" />
@@ -55,8 +55,8 @@ const galerie = [
             <p>La surveillance quotidienne des chevaux assure un suivi attentif et rassurant pour chaque propriétaire.</p>
           </div>
           <div class="pt-6 border-t border-secondary/20">
-            <div class="grid grid-cols-3 gap-6 text-center">
-              <div v-for="[val, label] in [['24h/7', 'Surveillance'], ['25', 'Boxs'], ['20', 'Hectares']]" :key="label">
+            <div class="grid grid-cols-4 gap-6 text-center">
+              <div v-for="[val, label] in [['24h/7', 'Surveillance'], ['25', 'Boxes'], ['20', 'Hectares'], ['1', 'rond de longe']]" :key="label">
                 <span class="block text-3xl font-serif font-bold text-accent mb-2">{{ val }}</span>
                 <span class="text-sm font-medium text-text/70 uppercase tracking-widest">{{ label }}</span>
               </div>
@@ -95,7 +95,7 @@ const galerie = [
     <!-- CTA -->
     <AppSection variant="primary" class="text-white" :style="{ backgroundColor: '#41607D' }">
       <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl md:text-5xl font-serif font-bold mb-6">Confier votre cheval à l'Écurie Elphé</h2>
+        <h2 class="text-3xl md:text-5xl font-serif font-bold mb-6">Confier votre cheval à l'Écurie Elphe</h2>
         <p class="text-xl mb-10 text-white/80 font-light">Contactez-nous pour en savoir plus sur nos formules de pension et visiter nos installations.</p>
         <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
           <a href="tel:+33638101713"><AppButton variant="outline" size="lg" class="w-full sm:w-auto border-white text-white hover:bg-white/10 shadow-lg">📞 Appeler</AppButton></a>

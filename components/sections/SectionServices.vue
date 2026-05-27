@@ -11,13 +11,7 @@ const services = [
     description: "Des formules de pension au pré, en paddock ou en box, avec sorties quotidiennes. Surveillance 24h/7 et foin à volonté.",
     image: '/images/Champ.jpg',
     href: '/pension',
-  },
-  {
-    title: "Balades & Randonnées",
-    description: "Découvrez notre belle région au rythme du pas de votre cheval. Des itinéraires variés en forêt ou en pleine campagne.",
-    image: '/images/Balade-a-cheval-riviere.jpg',
-    href: '/balades',
-  },
+  }, 
   {
     title: "Élevage",
     description: "Un élevage familial sélectionné pour le mental et le sport. Nous vous accompagnons dans le choix de votre futur partenaire.",
@@ -29,7 +23,7 @@ const services = [
 
 <template>
   <AppSection id="services" title="Nos Activités" subtitle="Ce que nous proposons" variant="default">
-    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
       <AppCard
         v-for="(service, index) in services"
         :key="index"

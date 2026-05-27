@@ -10,18 +10,13 @@ const valeurs = [
   {
     icon: Heart,
     title: 'Sélection rigoureuse',
-    description: "Chaque poulain est sélectionné avec attention pour son mental, sa morphologie et son équilibre général. Nous privilégions des lignées reconnues pour leur caractère, leur facilité et leur polyvalence, afin de convenir à une grande diversité de cavaliers.",
+    description: "Nous privilégions des étalons et juments au caractère sain, gentil et polyvalent afin que les poulains conviennent à une grande diversité de cavaliers.",
   },
   {
     icon: Leaf,
     title: 'Élevage naturel',
     description: "Nos chevaux grandissent en liberté, en troupeau, avec un accès permanent aux pâtures. Cette approche favorise leur développement physique et psychologique.",
-  },
-  {
-    icon: Shield,
-    title: 'Suivi vétérinaire',
-    description: "Un suivi sanitaire rigoureux dès la naissance : vaccinations, vermifugations, bilans dentaires et podologiques réguliers pour garantir la santé de chaque animal.",
-  },
+  }, 
   {
     icon: Award,
     title: 'Accompagnement personnalisé',
@@ -41,7 +36,7 @@ const galerie = [
   <div>
     <!-- Hero -->
     <div class="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
-      <img src="/images/Horse_group.jpg" alt="Élevage de l'Écurie Elphé" class="absolute inset-0 w-full h-full object-cover object-center" fetchpriority="high" />
+      <img src="/images/Horse_group.jpg" alt="Élevage de l'Écurie Elphe" class="absolute inset-0 w-full h-full object-cover object-center" fetchpriority="high" />
       <div class="absolute inset-0 bg-primary/50 mix-blend-multiply z-10" />
       <div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-transparent to-transparent z-10" />
       <div class="relative z-20 text-center text-white px-4">
@@ -55,7 +50,7 @@ const galerie = [
       <div class="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
         <div class="relative">
           <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative z-10">
-            <img src="/images/Gray_horse_1.jpg" alt="Cheval de l'élevage Elphé" loading="lazy" class="w-full h-full object-cover" />
+            <img src="/images/Gray_horse_1.jpg" alt="Cheval de l'élevage Elphe" loading="lazy" class="w-full h-full object-cover" />
           </div>
           <div class="absolute top-10 -left-6 md:-left-10 w-full h-full border-4 border-accent/30 rounded-2xl -z-10" />
           <div class="absolute -bottom-8 -right-8 w-48 h-48 bg-primary/5 rounded-full blur-3xl -z-10" />
@@ -90,7 +85,7 @@ const galerie = [
       <div class="absolute right-0 top-0 -translate-y-1/2 translate-x-1/3 opacity-5">
         <svg width="600" height="600" viewBox="0 0 100 100" class="text-primary fill-current"><path d="M50 0 L100 50 L50 100 L0 50 Z" /></svg>
       </div>
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div v-for="(valeur, index) in valeurs" :key="index" class="text-center group">
           <div class="mx-auto w-20 h-20 rounded-2xl bg-white shadow-soft flex items-center justify-center mb-6 rotate-3 group-hover:-rotate-3 transition-transform duration-300">
             <component :is="valeur.icon" class="text-primary" :size="32" />

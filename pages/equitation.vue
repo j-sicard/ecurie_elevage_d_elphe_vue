@@ -54,8 +54,8 @@ const galerie = [
             <p>Nous proposons une équitation de loisir, sans renoncer à la recherche d'une équitation de qualité. Toutes les disciplines sont abordées dans un esprit d'ouverture et de progression, sans objectif de compétition.</p>
           </div>
           <div class="pt-6 border-t border-secondary/20">
-            <div class="grid grid-cols-3 gap-6 text-center">
-              <div v-for="[val, label] in [['Tous', 'Niveaux'], ['1', 'Carrière'], ['1', 'Manège']]" :key="label">
+            <div class="grid grid-cols-4 gap-6 text-center">
+              <div v-for="[val, label] in [['Tous', 'Niveaux'], ['1', 'Carrière'], ['1', 'Manège'], ['1', 'rond de long']]" :key="label">
                 <span class="block text-3xl font-serif font-bold text-accent mb-2">{{ val }}</span>
                 <span class="text-sm font-medium text-text/70 uppercase tracking-widest">{{ label }}</span>
               </div>

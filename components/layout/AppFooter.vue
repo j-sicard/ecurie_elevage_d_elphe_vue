@@ -29,8 +29,7 @@ const year = new Date().getFullYear()
         <div>
           <h4 class="text-lg font-bold text-white mb-6">Les Activités</h4>
           <ul class="space-y-4">
-            <li><NuxtLink to="/equitation" class="hover:text-white transition-colors">Cours d'équitation</NuxtLink></li>
-            <li><NuxtLink to="/balades" class="hover:text-white transition-colors">Balades & Randonnées</NuxtLink></li>
+            <li><NuxtLink to="/equitation" class="hover:text-white transition-colors">Cours d'équitation</NuxtLink></li>            
             <li><NuxtLink to="/pension" class="hover:text-white transition-colors">Pension Paddock/Box</NuxtLink></li>
             <li><NuxtLink to="/elevage" class="hover:text-white transition-colors">Élevage & Vente</NuxtLink></li>
           </ul>

@@ -52,7 +52,7 @@ const linkClass = computed(() =>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center">
         <a href="/#home" :class="logoClass">
-          Écurie - Élevage d'Elphe
+          Écurie - Élevage d'Elphe 
         </a>
 
         <!-- Desktop -->
