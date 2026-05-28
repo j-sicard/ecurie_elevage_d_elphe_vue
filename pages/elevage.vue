@@ -25,9 +25,9 @@ const valeurs = [
 ]
 
 const galerie = [
-  { src: '/images/Horse_group.jpg', alt: "Groupe de chevaux de l'élevage" },
-  { src: '/images/Gray_horse_1.jpg', alt: "Cheval gris de l'élevage" },
-  { src: '/images/White_horse.jpg', alt: "Cheval blanc de l'élevage" },
+  { src: '/images/IMG_8389.png', alt: "Groupe de chevaux de l'élevage" },
+  { src: '/images/IMG_0729.png', alt: "Cheval gris de l'élevage" },
+  { src: '/images/IMG_0948.png', alt: "Cheval blanc de l'élevage" },
   { src: '/images/Two_horse.jpg', alt: 'Deux chevaux ensemble' },
 ]
 </script>
@@ -50,7 +50,7 @@ const galerie = [
       <div class="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
         <div class="relative">
           <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative z-10">
-            <img src="/images/Gray_horse_1.jpg" alt="Cheval de l'élevage Elphe" loading="lazy" class="w-full h-full object-cover" />
+            <img src="/images/IMG_9797.jpg" alt="Cheval de l'élevage Elphe" loading="lazy" class="w-full h-full object-cover" />
           </div>
           <div class="absolute top-10 -left-6 md:-left-10 w-full h-full border-4 border-accent/30 rounded-2xl -z-10" />
           <div class="absolute -bottom-8 -right-8 w-48 h-48 bg-primary/5 rounded-full blur-3xl -z-10" />
@@ -107,7 +107,7 @@ const galerie = [
     </AppSection>
 
     <!-- CTA -->
-    <AppSection variant="primary" class="text-white" :style="{ backgroundColor: '#41607D' }">
+    <AppSection variant="primary" class="text-white" :style="{ backgroundColor: '#1953f3ff' }">
       <div class="max-w-4xl mx-auto text-center">
         <h2 class="text-3xl md:text-5xl font-serif font-bold mb-6">Intéressé par nos chevaux ?</h2>
         <p class="text-xl mb-10 text-white/80 font-light">Contactez-nous pour en savoir plus sur nos poulains disponibles ou pour visiter notre élevage.</p>

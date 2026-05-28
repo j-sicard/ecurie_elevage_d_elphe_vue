@@ -15,9 +15,9 @@ const atouts = [
 
 const galerie = [
   { src: '/images/Champ.jpg', alt: 'Chevaux au pré en pension' },
-  { src: '/images/Horse_group.jpg', alt: 'Groupe de chevaux en paddock' },
-  { src: '/images/Gray_horse_2.jpg', alt: "Cheval en pension à l'Écurie Elphé" },
-  { src: '/images/Two_horse.jpg', alt: 'Deux chevaux ensemble au pré' },
+  { src: '/images/IMG_1220.png', alt: 'Groupe de chevaux au pré' },
+  { src: '/images/IMG_1714.png', alt: "chevaux en pension au pré enneigé" },
+  { src: '/images/IMG_3195.jpg', alt: 'chevaux en pension au pré' },
 ]
 </script>
 
@@ -39,7 +39,7 @@ const galerie = [
       <div class="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
         <div class="relative">
           <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative z-10">
-            <img src="/images/Horse_group.jpg" alt="Chevaux en pension à l'Écurie Elphe" loading="lazy" class="w-full h-full object-cover" />
+            <img src="/images/IMG_3197.jpg" alt="Chevaux en pension à l'Écurie Elphe" loading="lazy" class="w-full h-full object-cover" />
           </div>
           <div class="absolute top-10 -left-6 md:-left-10 w-full h-full border-4 border-accent/30 rounded-2xl -z-10" />
           <div class="absolute -bottom-8 -right-8 w-48 h-48 bg-primary/5 rounded-full blur-3xl -z-10" />
@@ -93,7 +93,7 @@ const galerie = [
     </AppSection>
 
     <!-- CTA -->
-    <AppSection variant="primary" class="text-white" :style="{ backgroundColor: '#41607D' }">
+    <AppSection variant="primary" class="text-white" :style="{ backgroundColor: '#1953f3ff' }">
       <div class="max-w-4xl mx-auto text-center">
         <h2 class="text-3xl md:text-5xl font-serif font-bold mb-6">Confier votre cheval à l'Écurie Elphe</h2>
         <p class="text-xl mb-10 text-white/80 font-light">Contactez-nous pour en savoir plus sur nos formules de pension et visiter nos installations.</p>

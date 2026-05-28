@@ -14,10 +14,10 @@ const atouts = [
 ]
 
 const galerie = [
-  { src: '/images/Carriere_1.jpg', alt: "Carrière équestre de l'Écurie Elphé" },
-  { src: '/images/Ecurie_cavaliere.jpg', alt: "Cavalière en cours d'équitation" },
-  { src: '/images/Gray_horse_1.jpg', alt: "Cheval lors d'un cours" },
-  { src: '/images/Carriere_2.jpg', alt: 'Carrière extérieure' },
+  { src: '/images/IMG_3203.jpg', alt: "Carrière équestre de l'Écurie Elphe" },
+  { src: '/images/IMG_6774.jpg', alt: "Rond de longe de l'Écurie Elphe." },
+  { src: '/images/1C0DB5CA-7527-48B4-92A8-2F4E651A8041.PNG', alt: "Cours d'équitation de nuit de l'écurie d'Elphe" },
+  { src: '/images/IMG_3736.jpg', alt: "Manège de l'écurie d'Elphe" },
 ]
 </script>
 
@@ -39,7 +39,7 @@ const galerie = [
       <div class="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
         <div class="relative">
           <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative z-10">
-            <img src="/images/Ecurie_cavaliere.jpg" alt="Cavalière en cours d'équitation" loading="lazy" class="w-full h-full object-cover" />
+            <img src="/images/Carriere_2.jpg" alt="Cavalière en cours d'équitation" loading="lazy" class="w-full h-full object-cover" />
           </div>
           <div class="absolute top-10 -left-6 md:-left-10 w-full h-full border-4 border-accent/30 rounded-2xl -z-10" />
           <div class="absolute -bottom-8 -right-8 w-48 h-48 bg-primary/5 rounded-full blur-3xl -z-10" />
@@ -92,7 +92,7 @@ const galerie = [
     </AppSection>
 
     <!-- CTA -->
-    <AppSection variant="primary" class="text-white" :style="{ backgroundColor: '#41607D' }">
+    <AppSection variant="primary" class="text-white" :style="{ backgroundColor: '#1953f3ff' }">
       <div class="max-w-4xl mx-auto text-center">
         <h2 class="text-3xl md:text-5xl font-serif font-bold mb-6">Prêt à monter en selle ?</h2>
         <p class="text-xl mb-10 text-white/80 font-light">Contactez-nous pour vous inscrire à un cours d'essai ou obtenir plus d'informations sur nos formules.</p>
