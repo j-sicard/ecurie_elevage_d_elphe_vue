@@ -17,7 +17,7 @@ const galerie = [
   { src: '/images/Champ.jpg', alt: 'Chevaux au pré en pension' },
   { src: '/images/IMG_1220.png', alt: 'Groupe de chevaux au pré' },
   { src: '/images/IMG_1714.png', alt: "chevaux en pension au pré enneigé" },
-  { src: '/images/IMG_3195.jpg', alt: 'chevaux en pension au pré' },
+  { src: '/images/IMG_3223.jpg', alt: 'box à cheval' },
 ]
 </script>
 
