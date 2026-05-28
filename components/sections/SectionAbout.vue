@@ -3,7 +3,7 @@
     <div class="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
       <div class="order-2 md:order-1 relative">
         <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative z-10">
-          <img src="/images/Head_Horse.jpg" alt="Cavalière au sein du domaine" loading="lazy" class="w-full h-full object-cover" />
+          <img src="/images/IMG_3740.jpg" alt="Cavalière au sein du domaine" loading="lazy" class="w-full h-full object-cover" />
         </div>
         <div class="absolute top-10 -left-6 md:-left-10 w-full h-full border-4 border-accent/30 rounded-2xl -z-10" />
         <div class="absolute -bottom-8 -right-8 w-48 h-48 bg-primary/5 rounded-full blur-3xl -z-10" />

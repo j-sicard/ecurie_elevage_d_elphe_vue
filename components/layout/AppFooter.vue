@@ -5,7 +5,7 @@ const year = new Date().getFullYear()
 </script>
 
 <template>
-  <footer class="text-white/80 pt-20 pb-10" style="background-color: #41607D">
+  <footer class="text-white/80 pt-20 pb-10" style="background-color: #1953f3ff">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
 

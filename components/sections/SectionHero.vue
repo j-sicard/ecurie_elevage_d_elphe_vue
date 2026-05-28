@@ -5,7 +5,7 @@ import { ArrowDown } from 'lucide-vue-next'
 <template>
   <div id="home" class="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
     <img
-      src="/images/Ecurie_cheval_galop.jpg"
+      src="/images/IMG_9604.jpg"
       alt=""
       class="absolute inset-0 w-full h-full object-cover object-[center_10%]"
       fetchpriority="high"
