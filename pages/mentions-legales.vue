@@ -18,7 +18,7 @@ useSeoMeta({
             <li><strong>Nom / Prénom :</strong> Sicard Julien</li>
             <li><strong>Statut juridique :</strong> Particulier</li>
             <li><strong>Adresse :</strong> Saint-Ciers-Sur-Gironde, France</li>
-            <li><strong>Email :</strong> [à compléter] </li>
+            <li ><strong>Email :</strong><spam  class="underline"> julien.carrier@wanadoo.fr </spam></li>
             <li><strong>Linkedin :</strong> <a href="https://www.linkedin.com/in/srdjulien" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-accent underline transition-colors">linkedin.com/in/srdjulien</a></li>
             <li><strong>Responsable de la publication :</strong> Sicard julien</li>
           </ul>
@@ -67,7 +67,7 @@ useSeoMeta({
             <li>droit à la portabilité des données.</li>
           </ul>
           <br />
-          <p>Pour exercer vos droits : [a remplir]</p>
+          <p>Pour exercer vos droits : <spam  class="underline"> julien.carrier@wanadoo.fr </spam></p>
           <br />
           <p>Vous pouvez également introduire une réclamation auprès de la CNIL :</p>
           <p class="underline">https://www.cnil.fr</p>

@@ -36,7 +36,7 @@ const navClass = computed(() =>
 
 const logoClass = computed(() =>
   `text-2xl font-serif font-bold flex-shrink-0 ${
-    isScrolled.value ? 'text-primary' : 'text-primary sm:text-white'
+    isScrolled.value ? 'text-white' : 'text-white sm:text-white'
   }`
 )
 
