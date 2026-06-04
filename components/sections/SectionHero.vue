@@ -26,7 +26,7 @@ import { ArrowDown } from 'lucide-vue-next'
       <span class="inline-block text-accent font-medium tracking-widest uppercase text-sm mb-6 drop-shadow-md">
         Nature, Passion & Transmission
       </span>
-      <h1 class="text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-8 leading-tight drop-shadow-lg">
+      <h1 class="text-3xl sm:text-4xl md:text-7xl lg:text-8xl font-serif font-bold mb-8 leading-tight drop-shadow-lg">
         Écurie - Élevage<br />
         <span class="text-white/90 italic">d'Elphe</span>
       </h1>
