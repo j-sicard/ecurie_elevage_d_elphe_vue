@@ -93,7 +93,7 @@ const galerie = [
     </AppSection>
 
     <!-- CTA -->
-    <AppSection variant="primary" class="text-white" :style="{ backgroundColor: '#1953f3ff' }">
+    <AppSection variant="primary" class="text-white" :style="{ backgroundColor: '#4169E1' }">
       <div class="max-w-4xl mx-auto text-center">
         <h2 class="text-3xl md:text-5xl font-serif font-bold mb-6">Confier votre cheval à l'Écurie Elphe</h2>
         <p class="text-xl mb-10 text-white/80 font-light">Contactez-nous pour en savoir plus sur nos formules de pension et visiter nos installations.</p>

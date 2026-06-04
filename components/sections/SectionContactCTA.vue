@@ -1,5 +1,5 @@
 <template>
-  <AppSection id="contact" variant="primary" class="text-white" :style="{ backgroundColor: '#1953f3ff' }">
+  <AppSection id="contact" variant="primary" class="text-white" :style="{ backgroundColor: '#4169E1' }">
     <div class="max-w-4xl mx-auto text-center">
       <h2 class="text-3xl md:text-5xl font-serif font-bold mb-6">
         Prêt à nous rejoindre ?

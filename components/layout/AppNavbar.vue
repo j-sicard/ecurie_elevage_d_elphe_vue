@@ -63,7 +63,7 @@ const linkClass = computed(() =>
             </li>
           </ul>
           <a href="/#contact">
-            <AppButton variant="primary" size="sm" class="hidden lg:inline-flex">
+            <AppButton variant="tertiary" size="sm" class="hidden lg:inline-flex">
               Nous contacter
             </AppButton>
           </a>
@@ -71,7 +71,8 @@ const linkClass = computed(() =>
 
         <!-- Mobile toggle -->
         <button
-          class="md:hidden text-primary"
+           class="md:hidden transition-colors"
+  :class="isScrolled ? 'text-text' : 'text-white/90'"
           :aria-label="isOpen ? 'Fermer le menu' : 'Ouvrir le menu'"
           @click="isOpen = !isOpen"
         >

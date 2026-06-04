@@ -27,7 +27,7 @@ import { ArrowDown } from 'lucide-vue-next'
       </p>
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
         <a href="#services">
-          <AppButton variant="primary" size="lg" class="w-full sm:w-auto shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all">
+          <AppButton variant="tertiary" size="lg" class="w-full sm:w-auto shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all">
             Découvrir nos activités
           </AppButton>
         </a>

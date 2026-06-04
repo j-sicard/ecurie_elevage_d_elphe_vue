@@ -19,6 +19,7 @@ const base = 'inline-flex items-center justify-center rounded-md font-medium tra
 const variants = {
   primary: 'bg-primary text-white hover:bg-primary/90',
   secondary: 'bg-secondary text-white hover:bg-secondary/90',
+  tertiary: 'bg-tertiary text-white hover:bg-tertiary/90',
   outline: 'border-2 border-primary text-primary hover:bg-primary/5',
   ghost: 'text-primary hover:bg-primary/10',
 }
