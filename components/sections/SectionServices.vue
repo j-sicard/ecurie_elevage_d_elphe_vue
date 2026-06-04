@@ -7,7 +7,7 @@ const services = [
     href: '/equitation',
   },
   {
-    title: "Pension pour chevaux avec accès aux propriétaires",
+    title: "Pension pour chevaux",
     description: "Des formules de pension au pré, en paddock ou en box, avec sorties quotidiennes. Surveillance 24h/7 et foin à volonté.",
     image: '/images/Champ.jpg',
     href: '/pension',
