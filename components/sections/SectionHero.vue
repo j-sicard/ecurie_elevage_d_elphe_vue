@@ -39,12 +39,7 @@ import { ArrowDown } from 'lucide-vue-next'
           <AppButton variant="tertiary" size="lg" class="w-full sm:w-auto shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all">
             Découvrir nos activités
           </AppButton>
-        </a>
-        <a href="#about">
-          <AppButton variant="outline" size="lg" class="w-full sm:w-auto text-white border-white hover:bg-white/10 backdrop-blur-sm">
-            Visiter le domaine
-          </AppButton>
-        </a>
+        </a>      
       </div>
     </div>
 
