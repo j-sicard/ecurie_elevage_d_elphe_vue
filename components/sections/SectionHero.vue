@@ -4,12 +4,21 @@ import { ArrowDown } from 'lucide-vue-next'
 
 <template>
   <div id="home" class="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
-    <img
-      src="/images/IMG_9604.jpg"
-      alt=""
-      class="absolute inset-0 w-full h-full object-cover object-[center_10%]"
-      fetchpriority="high"
-    />
+    <picture>
+  <!-- Mobile -->
+  <source
+    media="(max-width: 767px)"
+    srcset="/images/litle_white_horse.jpg"
+  />
+
+  <!-- Tablette + Desktop (fallback) -->
+  <img
+    src="/images/IMG_9604.jpg"
+    alt=""
+    class="absolute inset-0 w-full h-full object-cover object-[center_10%]"
+    fetchpriority="high"
+  />
+</picture>
     <div class="absolute inset-0 bg-primary/40 mix-blend-multiply z-10" />
     <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent z-10" />
 
