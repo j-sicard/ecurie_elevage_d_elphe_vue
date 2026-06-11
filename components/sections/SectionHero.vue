@@ -13,7 +13,7 @@ import { ArrowDown } from 'lucide-vue-next'
 
   <!-- Tablette + Desktop (fallback) -->
   <img
-    src="/images/IMG_9604.jpg"
+    src="/images/HorseHeroBankGround.jpg"
     alt=""
     class="absolute inset-0 w-full h-full object-cover object-[center_10%]"
     fetchpriority="high"
