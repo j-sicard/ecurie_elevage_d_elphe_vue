@@ -36,13 +36,13 @@ const navClass = computed(() =>
 
 const logoClass = computed(() =>
   `text-2xl font-serif font-bold flex-shrink-0 ${
-    isScrolled.value ? 'text-white' : 'text-white sm:text-white'
+    isScrolled.value ? 'text-tertiary' : 'text-white sm:text-white'
   }`
 )
 
 const linkClass = computed(() =>
   `text-sm font-medium hover:text-accent transition-colors ${
-    isScrolled.value ? 'text-text' : 'text-text sm:text-white/90 sm:hover:text-white'
+    isScrolled.value ? 'text-tertiary' : 'text-text sm:text-white/90 sm:hover:text-white'
   }`
 )
 </script>
@@ -72,7 +72,7 @@ const linkClass = computed(() =>
         <!-- Mobile toggle -->
         <button
            class="md:hidden transition-colors"
-  :class="isScrolled ? 'text-text' : 'text-white/90'"
+  :class="isScrolled ? 'text-tertiary' : 'text-white/90'"
           :aria-label="isOpen ? 'Fermer le menu' : 'Ouvrir le menu'"
           @click="isOpen = !isOpen"
         >
@@ -86,13 +86,13 @@ const linkClass = computed(() =>
     <div v-if="isOpen" class="md:hidden bg-background absolute top-full left-0 w-full shadow-lg border-t border-secondary/10">
       <ul class="px-4 py-6 space-y-4">
         <li v-for="link in navLinks" :key="link.name">
-          <a :href="link.href" class="block text-lg font-medium text-text hover:text-primary transition-colors" @click="isOpen = false">
+          <a :href="link.href" class="block text-lg font-medium text-tertiary hover:text-primary transition-colors" @click="isOpen = false">
             {{ link.name }}
           </a>
         </li>
         <li class="pt-4">
           <a href="/#contact" @click="isOpen = false">
-            <AppButton variant="primary" class="w-full">Nous contacter</AppButton>
+            <AppButton variant="tertiary" class="w-full">Nous contacter</AppButton>
           </a>
         </li>
       </ul>
