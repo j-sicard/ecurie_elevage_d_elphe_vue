@@ -55,8 +55,8 @@ const galerie = [
             <p>La surveillance quotidienne des chevaux assure un suivi attentif et rassurant pour chaque propriétaire.</p>
           </div>
           <div class="pt-6 border-t border-secondary/20">
-            <div class="grid grid-cols-4 gap-6 text-center">
-              <div v-for="[val, label] in [['24h/7', 'Surveillance'], ['25', 'Boxes'], ['20', 'Hectares'], ['1', 'rond de longe']]" :key="label">
+            <div class="grid grid-cols-3 gap-6 text-center">
+              <div v-for="[val, label] in [['24h/7', 'Surveillance'], ['25', 'Boxes'], ['20', 'Hectares']]" :key="label">
                 <span class="block text-3xl font-serif font-bold text-accent mb-2">{{ val }}</span>
                 <span class="text-sm font-medium text-text/70 uppercase tracking-widest">{{ label }}</span>
               </div>

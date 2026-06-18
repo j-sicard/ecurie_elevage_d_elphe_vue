@@ -39,7 +39,7 @@ const year = new Date().getFullYear()
           <ul class="space-y-4">
             <li class="flex items-start">
               <MapPin class="mr-3 flex-shrink-0 text-accent/80" :size="20" aria-hidden="true" />
-              <span>Centre Équestre, 17 Route du Lion d'Or, 33390 Cartelegue</span>
+              <span>Écurie - Élevage d'Elphe, 17 Route du Lion d'Or, 33390 Cartelegue</span>
             </li>
             <li class="flex items-center">
               <Phone class="mr-3 flex-shrink-0 text-accent/80" :size="20" aria-hidden="true" />
