@@ -35,7 +35,7 @@ const galerie = [
 const galerie2 = [
   { src: '/images/poney_8.jpg', alt: "pouliche et son poulin." },
   { src: '/images/poney_5.jpg', alt: "Chevals au pré" },
-  { src: '/images/poney_7.jpg', alt: "pouliche et son poulin." },
+  { src: '/images/poney.jpg', alt: "pouliche et son poulin." },
   { src: '/images/poney_2.jpg', alt: "pouliche et son poulin." },
   { src: '/images/poney_9.jpg', alt: "Petit cheval blanc" },
 ]
