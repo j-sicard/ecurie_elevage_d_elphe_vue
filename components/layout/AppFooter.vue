@@ -21,8 +21,7 @@ const year = new Date().getFullYear()
           <ul class="space-y-4">
             <li><a href="/#home" class="hover:text-white transition-colors">Accueil</a></li>
             <li><a href="/#about" class="hover:text-white transition-colors">Le Domaine</a></li>
-            <li><a href="/#services" class="hover:text-white transition-colors">Nos Services</a></li>
-            <li><a href="/#gallery" class="hover:text-white transition-colors">Galerie Photo</a></li>
+            <li><a href="/#services" class="hover:text-white transition-colors">Nos Services</a></li>            
           </ul>
         </div>
 

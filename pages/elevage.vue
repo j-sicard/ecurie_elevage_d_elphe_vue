@@ -29,15 +29,15 @@ const galerie = [
   { src: '/images/IMG_0729.png', alt: "Cheval gris de l'élevage" },
   { src: '/images/IMG_0948.png', alt: "Cheval blanc de l'élevage" },
   { src: '/images/Two_horse.jpg', alt: 'Deux chevaux ensemble' },
-  { src: '/images/IMG_9604.jpg', alt: "Poulain de l'élevage Elphe" },
+  { src: '/images/IMG_0946.png', alt: "Poulain de l'élevage Elphe" },
 ]
 
 const galerie2 = [
-  { src: '/images/IMG_9787.JPG', alt: "Cheval en liberté" },
-  { src: '/images/IMG_0946.png', alt: "Cheval au pré" },
-  { src: '/images/IMG_1220.png', alt: "Jument et poulain" },
-  { src: '/images/IMG_9794.JPG', alt: "Cheval de l'élevage" },
-  { src: '/images/litle_white_horse.jpg', alt: "Petit cheval blanc" },
+  { src: '/images/poney_4.jpg', alt: "Cheval en liberté" },
+  { src: '/images/poney_5.jpg', alt: "Cheval au pré" },
+  { src: '/images/poney_3.jpg', alt: "Jument et poulain" },
+  { src: '/images/poney_2.jpg', alt: "Cheval de l'élevage" },
+  { src: '/images/poney.jpg', alt: "Petit cheval blanc" },
 ]
 </script>
 
@@ -105,7 +105,7 @@ const galerie2 = [
       </div>
     </AppSection>
 
-    <!-- Galerie -->
+    <!-- Galerie 1 -->
     <AppSection title="Nos chevaux" subtitle="En images" variant="default">
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[200px] md:auto-rows-[250px]">
         <div v-for="(img, idx) in galerie" :key="idx" :class="`relative group overflow-hidden rounded-xl ${idx === 0 ? 'col-span-2 row-span-2' : ''}`">
@@ -113,6 +113,7 @@ const galerie2 = [
           <div class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors duration-500 z-10" />
         </div>
       </div>
+      <!-- Galerie 2 -->
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[200px] md:auto-rows-[250px] mt-4">
         <div v-for="(img, idx) in galerie2" :key="idx" :class="`relative group overflow-hidden rounded-xl ${idx === 0 ? 'col-span-2 row-span-2' : ''}`">
           <img :src="img.src" :alt="img.alt" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />

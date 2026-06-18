@@ -10,8 +10,7 @@ const isOpen = ref(false)
 const navLinks = [
   { name: 'Accueil', href: '/#home' },
   { name: 'Le Domaine', href: '/#about' },
-  { name: 'Services', href: '/#services' },
-  { name: 'Galerie', href: '/#gallery' },
+  { name: 'Services', href: '/#services' },  
 ]
 
 onMounted(() => {
