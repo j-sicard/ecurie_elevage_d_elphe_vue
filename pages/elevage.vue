@@ -25,7 +25,7 @@ const valeurs = [
 ]
 
 const galerie = [
-  { src: '/images/IMG_8389.png', alt: "Groupe de chevaux de l'élevage dans un pré." },
+  { src: '/images/poney_7.jpg', alt: "Groupe de chevaux de l'élevage dans un pré." },
   { src: '/images/IMG_0729.png', alt: "Cheval blanc de l'élevage." },
   { src: '/images/IMG_0948.png', alt: "cheval dans un pré." },
   { src: '/images/Two_horse.jpg', alt: 'pouliche et son poulain.' },
@@ -33,9 +33,9 @@ const galerie = [
 ]
 
 const galerie2 = [
-  { src: '/images/poney_4.jpg', alt: "pouliche et son poulin." },
+  { src: '/images/poney_8.jpg', alt: "pouliche et son poulin." },
   { src: '/images/poney_5.jpg', alt: "Chevals au pré" },
-  { src: '/images/poney_3.jpg', alt: "pouliche et son poulin." },
+  { src: '/images/poney_7.jpg', alt: "pouliche et son poulin." },
   { src: '/images/poney_2.jpg', alt: "pouliche et son poulin." },
   { src: '/images/poney.jpg', alt: "Petit cheval blanc" },
 ]
