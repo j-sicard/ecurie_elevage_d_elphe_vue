@@ -25,18 +25,18 @@ const valeurs = [
 ]
 
 const galerie = [
-  { src: '/images/IMG_8389.png', alt: "Groupe de chevaux de l'élevage" },
-  { src: '/images/IMG_0729.png', alt: "Cheval gris de l'élevage" },
-  { src: '/images/IMG_0948.png', alt: "Cheval blanc de l'élevage" },
-  { src: '/images/Two_horse.jpg', alt: 'Deux chevaux ensemble' },
-  { src: '/images/IMG_0946.png', alt: "Poulain de l'élevage Elphe" },
+  { src: '/images/IMG_8389.png', alt: "Groupe de chevaux de l'élevage dans un pré." },
+  { src: '/images/IMG_0729.png', alt: "Cheval blanc de l'élevage." },
+  { src: '/images/IMG_0948.png', alt: "cheval dans un pré." },
+  { src: '/images/Two_horse.jpg', alt: 'pouliche et son poulain.' },
+  { src: '/images/IMG_0946.png', alt: "cheval dans un pré." },
 ]
 
 const galerie2 = [
-  { src: '/images/poney_4.jpg', alt: "Cheval en liberté" },
-  { src: '/images/poney_5.jpg', alt: "Cheval au pré" },
-  { src: '/images/poney_3.jpg', alt: "Jument et poulain" },
-  { src: '/images/poney_2.jpg', alt: "Cheval de l'élevage" },
+  { src: '/images/poney_4.jpg', alt: "pouliche et son poulin." },
+  { src: '/images/poney_5.jpg', alt: "Chevals au pré" },
+  { src: '/images/poney_3.jpg', alt: "pouliche et son poulin." },
+  { src: '/images/poney_2.jpg', alt: "pouliche et son poulin." },
   { src: '/images/poney.jpg', alt: "Petit cheval blanc" },
 ]
 </script>
