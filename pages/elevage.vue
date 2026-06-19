@@ -125,6 +125,7 @@ const galerie2 = [
     <!-- CTA -->
     <AppSection variant="primary" class="text-white" :style="{ backgroundColor: '#0b044eff' }">
       <div class="max-w-4xl mx-auto text-center">
+        <AppLogoCTA />
         <h2 class="text-3xl md:text-5xl font-serif font-bold mb-6">Intéressé par nos chevaux ?</h2>
         <p class="text-xl mb-10 text-white/80 font-light">Contactez-nous pour en savoir plus sur nos poulains disponibles ou pour visiter notre élevage.</p>
         <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
