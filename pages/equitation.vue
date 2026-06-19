@@ -49,7 +49,7 @@ const galerie = [
           <p class="text-xl text-primary font-serif font-medium leading-relaxed">Une approche bienveillante et structurée, centrée sur la progression de chaque cavalier et le respect de l'animal.</p>
           <div class="space-y-6 text-text/80 leading-relaxed">
             <p>Des cours adaptés à chaque niveau, avec une cavalerie douce et fiable, idéale pour apprendre en confiance.</p>
-            <p>Enfants, adolescents et adultes, du débutant au confirmé, trouvent des créneaux qui leur sont dédiés.</p>
+            <p>Enfants, adolescents et adultes, du débutant au confirmé, trouvent des créneaux qui leurs sont dédiés.</p>
             <p>Chaque équidé dispose de son propre matériel, pour garantir confort et bien-être.</p>
             <p>Nous proposons une équitation de loisir, sans renoncer à la recherche d'une équitation de qualité. Toutes les disciplines sont abordées dans un esprit d'ouverture et de progression, sans objectif de compétition.</p>
           </div>
