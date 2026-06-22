@@ -15,8 +15,7 @@ useSeoMeta({
           <h2 class="text-2xl font-serif font-bold text-primary mb-4">1. Responsable du traitement</h2>
           <ul class="mt-3 space-y-1 list-none pl-0">
             <li><strong>Nom / Entreprise :</strong> Écurie - Élevage d'Elphe</li>
-            <li><strong>Adresse :</strong> Centre Équestre, 17 Route du Lion d'Or, 33390 Cartelegue</li>            
-            <li><strong>Téléphone :</strong> 06 38 10 17 13</li>
+            <li><strong>Adresse :</strong> Centre Équestre, 17 Route du Lion d'Or, 33390 Cartelegue</li>        
             <li><strong>Email :</strong> <spam  class="underline"> julien.carrier@wanadoo.fr </spam></li>
           </ul>
         </div>
