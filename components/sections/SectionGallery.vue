@@ -1,9 +1,9 @@
 <script setup>
 const images = [
-  { src: '/images/Carriere_1.jpg', alt: "Carrière équestre de l'Écurie Elphé", class: 'col-span-2 row-span-2' },
-  { src: '/images/IMG_3223.jpg', alt: 'Chevaux au pré', class: 'col-span-1 row-span-1' },
-  { src: '/images/IMG_3203.jpg', alt: 'Deux chevaux ensemble', class: 'col-span-1 row-span-1' },
-  { src: '/images/IMG_3741.jpg', alt: 'Cheval gris en extérieur', class: 'col-span-2 row-span-1' },
+  { src: '/images/carriere-equestre-boxes-ecurie-elevage-elphe.jpg', alt: "Carrière équestre de l'Écurie élevage d'Elphe.", class: 'col-span-2 row-span-2' },
+  { src: '/images/boxes-ecurie-elevage-elphe.jpg', alt: "Boxes a cheval de l'écurie - élevage d'elphe.", class: 'col-span-1 row-span-1' },
+  { src: '/images/carriere-equestre-ecurie-elevage-elphe.jpg', alt: "Carrière de l'écurie - élevage d'elphe.", class: 'col-span-1 row-span-1' },
+  { src: '/images/boxes-vu-aerienne-ecurie-elevage-elphe.jpg', alt: "Vu aérienne des boxes de l'écurie - élevage d'eplhe.", class: 'col-span-2 row-span-1' },
 ]
 </script>
 

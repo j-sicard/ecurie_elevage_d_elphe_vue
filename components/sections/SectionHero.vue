@@ -8,13 +8,13 @@ import { ArrowDown } from 'lucide-vue-next'
   <!-- Mobile -->
   <source
     media="(max-width: 767px)"
-    srcset="/images/litle_white_horse.jpg"
+    srcset="/images/poney-grullo-blanc-ecurie-elevage-elphe.jpg"
   />
 
   <!-- Tablette + Desktop (fallback) -->
   <img
-    src="/images/HorseHeroBankGround.jpg"
-    alt=""
+    src="/images/etalon-fjord-PP-gris-souris-ecurie-elevage-elphe.jpg"
+    alt="Etalon fjord PP gris souris de l'écurie - élevage d'Elphe."
     class="absolute inset-0 w-full h-full object-cover object-[center_10%]"
     fetchpriority="high"
   />

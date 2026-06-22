@@ -3,25 +3,25 @@ const services = [
   {
     title: "École d'Équitation",
     description: "Des cours d'équitation adaptés à tous les niveaux, encadrés par un moniteur diplômé, dans une approche respectueuse du cheval et centrée sur la progression de chacun.",
-    image: '/images/Carriere_1.jpg',
+    image: '/images/carriere-equestre-boxes-ecurie-elevage-elphe.jpg',
     href: '/equitation',
   },
   {
     title: "Pension pour chevaux",
     description: "Des formules de pension au pré, en paddock ou en box, avec sorties quotidiennes. Surveillance 24h/7 et foin à volonté.",
-    image: '/images/Champ.jpg',
+    image: '/images/troupeau-cheveaux-ecurie-elevage-elphe.jpg',
     href: '/pension',
   }, 
   {
     title: "Élevage",
     description: "Un élevage familial sélectionné pour le mental et le sport. Nous vous accompagnons dans le choix de votre futur partenaire.",
-    image: '/images/Horse_group.jpg',
+    image: '/images/pouliche-grullo-poulains-ecurie-elevage-elphe.jpg',
     href: '/elevage',
   },
   {
     title: "Boutique & Sellerie",
     description: "Découvrez notre boutique aux couleurs du club : \n t-shirts, sweats, casquettes et plus encore. Retrouvez aussi notre sellerie en ligne pour vos achats utiles. Merci pour votre soutien !",
-    image: '/images/logo_shop.png',
+    image: '/images/logo-blagapro-ecurie-elevage-elphe.png',
     href: 'https://blagapro.com/categorie-produit/boutiques-des-clubs/nouvelle-aquitaine/gironde-33/ecurie-elevage-delphe-33390/',
   },
 ]

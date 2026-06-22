@@ -14,10 +14,10 @@ const atouts = [
 ]
 
 const galerie = [
-  { src: '/images/IMG_3203.jpg', alt: "Carrière équestre de l'Écurie Elphe" },
-  { src: '/images/IMG_6774.jpg', alt: "Rond de longe de l'Écurie Elphe." },
-  { src: '/images/1C0DB5CA-7527-48B4-92A8-2F4E651A8041.PNG', alt: "Cours d'équitation de nuit de l'écurie d'Elphe" },
-  { src: '/images/IMG_3736.jpg', alt: "Manège de l'écurie d'Elphe" },
+  { src: '/images/carriere-equestre-ecurie-elevage-elphe.jpg', alt: "Carrière équestre de l'Écurie - élevage d'Elphe" },
+  { src: '/images/rond-de-longe-ecurie-elevage-elphe.jpg', alt: "Rond de longe de l'Écurie - élevage d'Elphe." },
+  { src: '/images/vu-aerienne-carriere-equestre-ecurire-elevage-elphe.PNG', alt: "Cours d'équitation de nuit de l'écurie - elevage d'Elphe" },
+  { src: '/images/manege-ecurie-elevage-elphe.jpg', alt: "Manège de l'écurie - élevage d'Elphe" },
 ]
 </script>
 
@@ -25,7 +25,7 @@ const galerie = [
   <div>
     <!-- Hero -->
     <div class="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
-      <img src="/images/Carriere_1.jpg" alt="École d'équitation à l'Écurie Elphé" class="absolute inset-0 w-full h-full object-cover object-center" fetchpriority="high" />
+      <img src="/images/carriere-equestre-ecurie-elevage-elphe.jpg" alt="École d'équitation à l'Écurie Elphé" class="absolute inset-0 w-full h-full object-cover object-center" fetchpriority="high" />
       <div class="absolute inset-0 bg-primary/50 mix-blend-multiply z-10" />
       <div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-transparent to-transparent z-10" />
       <div class="relative z-20 text-center text-white px-4">

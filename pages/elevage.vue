@@ -25,19 +25,19 @@ const valeurs = [
 ]
 
 const galerie = [
-  { src: '/images/poney_7.jpg', alt: "Groupe de chevaux de l'élevage dans un pré." },
-  { src: '/images/IMG_0729.png', alt: "Cheval blanc de l'élevage." },
-  { src: '/images/IMG_0948.png', alt: "cheval dans un pré." },
-  { src: '/images/Two_horse.jpg', alt: 'pouliche et son poulain.' },
-  { src: '/images/IMG_0946.png', alt: "cheval dans un pré." },
+  { src: '/images/pouliches-et-poulins-grullo-au-pré-ecurie-elevage-elphe.jpg', alt: "Groupe de chevaux de l'écurie - élevage d'Elphe dans un pré." },
+  { src: '/images/WPB-cremello-mange-du-foin-au-pré-ecurie-elevage-elphe.png', alt: "Cheval WPB crémello de l'écurie - élevage d'Elphe." },
+  { src: '/images/etalon-grullo-marchant-dans-un-pré-ecurie-elevage-elphe.png', alt: "Etalon grullo dans un pré d'écurie - élevage d'Elphe." },
+  { src: '/images/pouliche-et-son-poulain-grullo-au-pré-ecurie-elevage-elphe.jpg', alt: "pouliche et son poulain grullo de l'écurie - élevage -d'Elphe." },
+  { src: '/images/etalon-grullo-dans-un-pré-ecurie-elevage-elphe.png', alt: "étalon grullo dans un pré de l'écurie - élevage d'Elphe." },
 ]
 
 const galerie2 = [
-  { src: '/images/poney_8.jpg', alt: "pouliche et son poulin." },
-  { src: '/images/poney_5.jpg', alt: "Chevals au pré" },
-  { src: '/images/poney.jpg', alt: "pouliche et son poulin." },
-  { src: '/images/poney_2.jpg', alt: "pouliche et son poulin." },
-  { src: '/images/poney_9.jpg', alt: "Petit cheval blanc" },
+  { src: '/images/pouliche-et-son-poulain-au-pré-de-ecurie-elevage-elphe.jpg', alt: "Pouliche s'abreuvant à coté de son poulin de l'écurie - élevage d'Elphe." },
+  { src: '/images/poulains-grullo-ecurie-elevage-elphe.jpg', alt: "Poulains grullo au pré." },
+  { src: '/images/poney-de-profile-ecurie-elevage-elphe.jpg', alt: "Poulin grullo de l'écurie - élevage d'elphe." },
+  { src: '/images/poulain-et-jument-grullo-mange-au-pre-ecurie-elevage-elphe.jpg', alt: "pouliche et son poulin mangent au pré de l'écurie - élevage -d'Elphe." },
+  { src: '/images/poulain-grello-manchant-au-pre-ecurie-elevage-elphe.jpg', alt: "Poney grullo marche dans un pré de l'écurie - élevage d'Elphe." },
 ]
 </script>
 
@@ -45,7 +45,7 @@ const galerie2 = [
   <div>
     <!-- Hero -->
     <div class="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
-      <img src="/images/Horse_group.jpg" alt="Élevage de l'Écurie Elphe" class="absolute inset-0 w-full h-full object-cover object-center" fetchpriority="high" />
+      <img src="/images/pouliche-grullo-poulains-ecurie-elevage-elphe.jpg" alt="Élevage de l'Écurie - élevage d'Elphe" class="absolute inset-0 w-full h-full object-cover object-center" fetchpriority="high" />
       <div class="absolute inset-0 bg-primary/50 mix-blend-multiply z-10" />
       <div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-transparent to-transparent z-10" />
       <div class="relative z-20 text-center text-white px-4">
@@ -59,7 +59,7 @@ const galerie2 = [
       <div class="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
         <div class="relative">
           <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative z-10">
-            <img src="/images/IMG_9797.JPG" alt="Cheval de l'élevage Elphe" loading="lazy" class="w-full h-full object-cover" />
+            <img src="/images/etalon-grullo-ecurie-elevage-elphe.jpg" alt="étalon grullo de l'écurie - élevage d'Elphe" loading="lazy" class="w-full h-full object-cover" />
           </div>
           <div class="absolute top-10 -left-6 md:-left-10 w-full h-full border-4 border-accent/30 rounded-2xl -z-10" />
           <div class="absolute -bottom-8 -right-8 w-48 h-48 bg-primary/5 rounded-full blur-3xl -z-10" />

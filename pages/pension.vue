@@ -14,10 +14,10 @@ const atouts = [
 ]
 
 const galerie = [
-  { src: '/images/Champ.jpg', alt: 'Chevaux au pré en pension' },
-  { src: '/images/IMG_1220.png', alt: 'Groupe de chevaux au pré' },
-  { src: '/images/IMG_1714.png', alt: "chevaux en pension au pré enneigé" },
-  { src: '/images/IMG_3223.jpg', alt: 'boxes à cheval' },
+  { src: '/images/troupeau-cheveaux-ecurie-elevage-elphe.jpg', alt: "Chevaux au pré en pension de l'écrurie - élevage d-elphe." },
+  { src: '/images/poneys-ecurie-elevage-elphe.png', alt: "Groupe de poneys au pré de l'écurire - élevage- d'elphe." },
+  { src: '/images/groupe-de-poneys-au-pre-sous-la-neige-de-ecurie-elevage-elphe.png', alt: "poneys au pré enneigé en pension à l'écurie - élevage d'eplhe." },
+  { src: '/images/boxes-ecurie-elevage-elphe.jpg', alt: "boxes à cheval de l'écurie - élevage d'Elphe" },
 ]
 </script>
 
@@ -25,7 +25,7 @@ const galerie = [
   <div>
     <!-- Hero -->
     <div class="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
-      <img src="/images/Champ.jpg" alt="Pension chevaux à l'Écurie Elphe" class="absolute inset-0 w-full h-full object-cover object-center" fetchpriority="high" />
+      <img src="/images/troupeau-cheveaux-ecurie-elevage-elphe.jpg" alt="Pension chevaux à l'Écurie Elphe" class="absolute inset-0 w-full h-full object-cover object-center" fetchpriority="high" />
       <div class="absolute inset-0 bg-primary/50 mix-blend-multiply z-10" />
       <div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-transparent to-transparent z-10" />
       <div class="relative z-20 text-center text-white px-4">
@@ -39,7 +39,7 @@ const galerie = [
       <div class="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
         <div class="relative">
           <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative z-10">
-            <img src="/images/IMG_3197.jpg" alt="Chevaux en pension à l'Écurie Elphe" loading="lazy" class="w-full h-full object-cover" />
+            <img src="/images/troupeau-de-poneys-au-pre-ecurie-elevage-elphe.jpg" alt="poneys au pré en pension à l'Écurie - élevage d'Elphe" loading="lazy" class="w-full h-full object-cover" />
           </div>
           <div class="absolute top-10 -left-6 md:-left-10 w-full h-full border-4 border-accent/30 rounded-2xl -z-10" />
           <div class="absolute -bottom-8 -right-8 w-48 h-48 bg-primary/5 rounded-full blur-3xl -z-10" />

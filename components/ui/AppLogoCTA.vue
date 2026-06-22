@@ -15,7 +15,7 @@
         transition-transform duration-500 hover:scale-105
       ">
         <img
-          src="/images/logo.jpg"
+          src="/images/logo-ecurie-elevage-elphe.jpg"
           alt="Logo Écurie - Élevage d'Elphe"
           class="w-full h-full object-contain p-2"
           loading="lazy"
