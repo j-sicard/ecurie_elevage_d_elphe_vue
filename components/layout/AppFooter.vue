@@ -40,11 +40,7 @@ const year = new Date().getFullYear()
             <li class="flex items-start">
               <MapPin class="mr-3 flex-shrink-0 text-accent/80" :size="20" aria-hidden="true" />
               <span>Écurie - Élevage d'Elphe, 17 Route du Lion d'Or, 33390 Cartelegue</span>
-            </li>
-            <li class="flex items-center">
-              <Phone class="mr-3 flex-shrink-0 text-accent/80" :size="20" aria-hidden="true" />
-              <a href="tel:+33638101713" class="hover:text-white transition-colors">06 38 10 17 13</a>
-            </li>
+            </li>           
             <li class="flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-3 flex-shrink-0 text-accent/80" aria-hidden="true">
                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
