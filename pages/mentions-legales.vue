@@ -13,14 +13,12 @@ useSeoMeta({
 
         <div>
           <h2 class="text-2xl font-serif font-bold text-primary mb-4">Éditeur du site</h2>
-          <p>Le site <strong>Écurie - Élevage d'Elphe</strong> accessible à l'adresse <strong>[à compléter]</strong> est édité par :</p>
+          <p>Le site <strong>Écurie - Élevage d'Elphe</strong> est édité par l'Écurie - Élevage d'Elphe.</p>
           <ul class="mt-3 space-y-1 list-none pl-0">
-            <li><strong>Nom / Prénom :</strong> Sicard Julien</li>
-            <li><strong>Statut juridique :</strong> Particulier</li>
-            <li><strong>Adresse :</strong> Saint-Ciers-Sur-Gironde, France</li>
-            <li ><strong>Email :</strong><spam  class="underline"> julien.carrier@wanadoo.fr </spam></li>
-            <li><strong>Linkedin :</strong> <a href="https://www.linkedin.com/in/srdjulien" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-accent underline transition-colors">linkedin.com/in/srdjulien</a></li>
+            <li><strong>adresse :</strong> 17 Route du Lion d'Or 33390 Cartelègue</li>         
+            <li ><strong>Contact :</strong><spam  class="underline"> julien.carrier@wanadoo.fr </spam></li>            
             <li><strong>Responsable de la publication :</strong> Sicard julien</li>
+            <li><strong>Linkedin :</strong> <a href="https://www.linkedin.com/in/srdjulien" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-accent underline transition-colors">linkedin.com/in/srdjulien</a></li>
           </ul>
         </div>
 
