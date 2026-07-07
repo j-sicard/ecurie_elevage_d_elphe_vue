@@ -16,7 +16,7 @@ useSeoMeta({
           <p>Le site <strong>Écurie - Élevage d'Elphe</strong> est édité par l'Écurie - Élevage d'Elphe.</p>
           <ul class="mt-3 space-y-1 list-none pl-0">
             <li><strong>adresse :</strong> 17 Route du Lion d'Or 33390 Cartelègue</li>         
-            <li ><strong>Contact :</strong><spam  class="underline"> julien.carrier@wanadoo.fr </spam></li>            
+            <li ><strong>Contact :</strong><spam  class="underline"> ecurieelevagedelphe@gmail.com </spam></li>            
             <li><strong>Responsable de la publication :</strong> Sicard julien</li>
             <li><strong>Linkedin :</strong> <a href="https://www.linkedin.com/in/srdjulien" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-accent underline transition-colors">linkedin.com/in/srdjulien</a></li>
           </ul>
